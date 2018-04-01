@@ -1,7 +1,5 @@
 package de.ykstr.jnetsim.protocols.layer2;
 
-import de.ykstr.jnetsim.protocols.layer3.IPAddress;
-
 public class MACAddress {
     private int address;
 

@@ -1,4 +1,4 @@
-package de.ykstr.jnetsim.protocols.layer3;
+package de.ykstr.jnetsim.protocols.layer3.IP;
 
 public class IPAddress {
     private int address = 0;
