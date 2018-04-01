@@ -1,6 +1,8 @@
+import de.ykstr.jnetsim.protocols.layer2.MACAddress;
+
 public class Layer2Test {
     public static void main(String[] args) {
-        int i = 0xFFFFFF;
-        System.out.println(i);
+        MACAddress mac = new MACAddress("FFFFFF");
+        System.out.println(mac);
     }
 }
