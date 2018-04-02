@@ -11,4 +11,15 @@ public class Layer4Packet implements Layer4{
     public String toString() {
         return "Layer4Packet\n"+payload;
     }
+
+
+    @Override
+    public byte getSize() {
+        return 0;
+    }
+
+    @Override
+    public byte[] getByteRepresentation() {
+        return new byte[0];
+    }
 }

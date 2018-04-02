@@ -1,6 +1,8 @@
 package de.ykstr.jnetsim.protocols.layer3.IP;
 
-public class IPAddress {
+import de.ykstr.jnetsim.protocols.ByteRepresentable;
+
+public class IPAddress implements ByteRepresentable{
     private int address = 0;
 
     public IPAddress(String ip){
@@ -31,5 +33,10 @@ public class IPAddress {
         if(!(obj instanceof IPAddress))return false;
         IPAddress other = (IPAddress)obj;
         return other.address == this.address;
+    }
+
+    @Override
+    public byte[] getByteRepresentation() {
+        return new byte[0];
     }
 }

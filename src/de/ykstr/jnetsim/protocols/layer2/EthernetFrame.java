@@ -1,9 +1,10 @@
 package de.ykstr.jnetsim.protocols.layer2;
 
+import de.ykstr.jnetsim.protocols.ByteRepresentable;
 import de.ykstr.jnetsim.protocols.layer3.IP.IPFrameHeader;
 import de.ykstr.jnetsim.protocols.layer3.Layer3;
 
-public class EthernetFrame {
+public class EthernetFrame implements ByteRepresentable{
     byte[] preamble = new byte[7];
     byte SOF;
     MACAddress source;
@@ -21,5 +22,10 @@ public class EthernetFrame {
         sb.append("Target-MAC: "+target+"\n");
         sb.append(payload);
         return sb.toString();
+    }
+
+    @Override
+    public byte[] getByteRepresentation() {
+        return new byte[0];
     }
 }

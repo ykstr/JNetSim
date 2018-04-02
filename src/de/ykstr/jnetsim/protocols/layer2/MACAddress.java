@@ -1,6 +1,8 @@
 package de.ykstr.jnetsim.protocols.layer2;
 
-public class MACAddress {
+import de.ykstr.jnetsim.protocols.ByteRepresentable;
+
+public class MACAddress implements ByteRepresentable{
     private int address;
 
     public MACAddress(String address){
@@ -18,5 +20,10 @@ public class MACAddress {
         if(!(obj instanceof MACAddress))return false;
         MACAddress other = (MACAddress)obj;
         return other.address == this.address;
+    }
+
+    @Override
+    public byte[] getByteRepresentation() {
+        return new byte[0];
     }
 }
