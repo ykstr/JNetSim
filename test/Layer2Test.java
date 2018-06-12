@@ -1,4 +1,4 @@
-import de.ykstr.jnetsim.protocols.layer2.MACAddress;
+import de.ykstr.jnetsim.realistic.protocols.layer2.MACAddress;
 
 public class Layer2Test {
     public static void main(String[] args) {

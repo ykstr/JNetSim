@@ -1,6 +1,4 @@
-package de.ykstr.jnetsim.util;
-
-import java.util.Arrays;
+package de.ykstr.jnetsim.realistic.util;
 
 public class ByteUtils {
     public static byte[] merge(byte... b){

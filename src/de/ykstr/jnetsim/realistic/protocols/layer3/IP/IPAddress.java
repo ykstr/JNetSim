@@ -1,6 +1,6 @@
-package de.ykstr.jnetsim.protocols.layer3.IP;
+package de.ykstr.jnetsim.realistic.protocols.layer3.IP;
 
-import de.ykstr.jnetsim.protocols.ByteRepresentable;
+import de.ykstr.jnetsim.realistic.protocols.ByteRepresentable;
 
 public class IPAddress implements ByteRepresentable{
     private int address = 0;

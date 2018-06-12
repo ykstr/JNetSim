@@ -1,6 +1,6 @@
-package de.ykstr.jnetsim.protocols.layer2;
+package de.ykstr.jnetsim.realistic.protocols.layer2;
 
-import de.ykstr.jnetsim.protocols.ByteRepresentable;
+import de.ykstr.jnetsim.realistic.protocols.ByteRepresentable;
 
 public class MACAddress implements ByteRepresentable{
     private int address;

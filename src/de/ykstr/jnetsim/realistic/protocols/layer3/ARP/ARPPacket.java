@@ -1,6 +1,6 @@
-package de.ykstr.jnetsim.protocols.layer3.ARP;
+package de.ykstr.jnetsim.realistic.protocols.layer3.ARP;
 
-import de.ykstr.jnetsim.protocols.ByteRepresentable;
+import de.ykstr.jnetsim.realistic.protocols.ByteRepresentable;
 
 public class ARPPacket implements ByteRepresentable{
     @Override

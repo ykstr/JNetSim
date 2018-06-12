@@ -1,8 +1,7 @@
-package de.ykstr.jnetsim.protocols.layer2;
+package de.ykstr.jnetsim.realistic.protocols.layer2;
 
-import de.ykstr.jnetsim.protocols.ByteRepresentable;
-import de.ykstr.jnetsim.protocols.layer3.IP.IPFrameHeader;
-import de.ykstr.jnetsim.protocols.layer3.Layer3;
+import de.ykstr.jnetsim.realistic.protocols.ByteRepresentable;
+import de.ykstr.jnetsim.realistic.protocols.layer3.Layer3;
 
 public class EthernetFrame implements ByteRepresentable{
     byte[] preamble = new byte[7];

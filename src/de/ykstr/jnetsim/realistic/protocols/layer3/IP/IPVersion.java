@@ -1,7 +1,7 @@
-package de.ykstr.jnetsim.protocols.layer3.IP;
+package de.ykstr.jnetsim.realistic.protocols.layer3.IP;
 
-import de.ykstr.jnetsim.protocols.ByteRepresentable;
-import de.ykstr.jnetsim.util.ByteUtils;
+import de.ykstr.jnetsim.realistic.protocols.ByteRepresentable;
+import de.ykstr.jnetsim.realistic.util.ByteUtils;
 
 public enum IPVersion implements ByteRepresentable{
     V4(4), V6(6);
